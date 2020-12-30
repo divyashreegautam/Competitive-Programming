@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define int int64_t
+
+// Use long long int in case of wrong answer
 
 signed main()
 {
