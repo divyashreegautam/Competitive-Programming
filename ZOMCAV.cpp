@@ -42,7 +42,7 @@ for(int i=1;i<=n;i++)
 	sort(H.begin(),H.end());
 
 	if(H==caves_final)
-		cout<<"YES\n";
+		cout<<"YES\n"; //endl may cause error in interactive problems
 	else
 		cout<<"NO\n";
 
