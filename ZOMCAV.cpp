@@ -2,6 +2,7 @@
 using namespace std;
 
 // Use long long int in case of wrong answer
+// Defining globally is not a good practice
 
 signed main()
 {
