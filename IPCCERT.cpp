@@ -52,9 +52,8 @@ int main()
 
         f(n)
         {
-            if(v[i].first >= m && v[i].second<=10)cnt++;
+            if(v[i].first >= m && v[i].second<=10)cnt++; //Implementation with pair iterators
         }
         cout<<cnt;
-
     }
 }
