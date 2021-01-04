@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-    #define int long long    //Not a good practice, code for testing purpose
+	cin.tie(0);cout.tie(0);
+	#define int long long //Not good practice, for testing purpose only
     int t; cin>>t; while(t--)
     {
         int n;
