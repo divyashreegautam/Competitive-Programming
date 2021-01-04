@@ -23,8 +23,8 @@ long long dig(long long n) {return floor(log10(n) + 1);}
 
 int main()
 {
-	io
-	#define int long long
+	cin.tie(0);cout.tie(0);
+	#define int long long // Not a good practice, for testing purpose only
    int t; cin>>t; while(t--)
     {
         int n,k,x,a,b;
